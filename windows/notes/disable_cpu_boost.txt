@@ -1,0 +1,7 @@
+1) power options -> process power management -> state -> Maximum 99%
+
+2) power options -> process power management -> boost -> Disabled
+   see `windows/registry/expose processor performance boost mode.reg`
+
+3) install https://www.techpowerup.com/download/techpowerup-throttlestop/
+   disable turbo
