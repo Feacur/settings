@@ -1,0 +1,198 @@
+// %appdata%/Code/User
+{
+	"extensions.ignoreRecommendations": true,
+	"explorer.confirmDelete": false,
+	"security.workspace.trust.enabled": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"scm.autoReveal": false,
+	"telemetry.telemetryLevel": "off",
+	"telemetry.feedback.enabled": false,
+	"update.mode": "none",
+	"update.enableWindowsBackgroundUpdates": false,
+	"extensions.autoUpdate": false,
+	"extensions.autoCheckUpdates": false,
+	"typescript.check.npmIsInstalled": false,
+	"window.restoreWindows": "none",
+	"chat.agent.enabled": false,
+	"chat.commandCenter.enabled": false,
+	"chat.detectParticipant.enabled": false,
+	"chat.agent.maxRequests": 0,
+	"chat.checkpoints.enabled": false,
+	"explorer.confirmDragAndDrop": false,
+	"[plaintext]": {
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.unicodeHighlight.invisibleCharacters": false
+	},
+	// Terminal
+	"terminal.integrated.defaultLocation": "editor",
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"terminal.integrated.persistentSessionReviveProcess": "never",
+	"terminal.integrated.enablePersistentSessions": false,
+	"terminal.integrated.shellIntegration.history": 0,
+	// Search
+	"search.quickOpen.includeHistory": false,
+	"search.useIgnoreFiles": false,
+	// Debug
+	"debug.console.historySuggestions": false,
+	"debug.toolBarLocation": "commandCenter",
+	"debug.internalConsoleOptions": "neverOpen",
+	"debug.console.closeOnEnd": true,
+	// Files
+	"files.trimFinalNewlines": false,
+	"files.trimTrailingWhitespace": false,
+	// Workbench
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.activityBar.location": "hidden",
+	"workbench.sideBar.location": "right",
+	"workbench.commandPalette.history": 0,
+	"workbench.colorTheme": "Gruvbox Dark Medium",
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.editor.restoreViewState": false,
+	"workbench.editor.preferHistoryBasedLanguageDetection": false,
+	"workbench.editor.historyBasedLanguageDetection": false,
+	"workbench.editor.focusRecentEditorAfterClose": false,
+	"workbench.editor.closeEmptyGroups": true,
+	"workbench.editor.autoLockGroups": {
+		"terminalEditor": false,
+		"mainThreadWebview-browserPreview": false,
+		"mainThreadWebview-simpleBrowser.view": false,
+		"workbench.editor.processExplorer": false,
+		"workbench.editor.chatSession": false
+	},
+	// Editor
+	"editor.wordWrap": "off",
+	"editor.fontFamily": "JetBrains Mono NL",
+	"editor.fontLigatures": false,
+	"editor.fontSize": 14,
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.lineNumbers": "relative",
+	"editor.renderWhitespace": "all",
+	"editor.minimap.enabled": false,
+	"editor.scrollBeyondLastColumn": 5,
+	"editor.scrollBeyondLastLine": true,
+	"editor.autoClosingBrackets": "never",
+	"editor.autoClosingQuotes": "never",
+	"editor.autoClosingDelete": "never",
+	"editor.autoClosingOvertype": "never",
+	"editor.trimAutoWhitespace": true,
+	"editor.stickyScroll.maxLineCount": 5,
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.inlayHints.enabled": "off",
+	"editor.autoClosingComments": "never",
+	"editor.autoSurround": "never",
+	"zenMode.showTabs": "none",
+	"editor.largeFileOptimizations": false,
+	// Editor Config
+	"editorconfig.generateAuto": false,
+	// Hex Editor
+	"hexeditor.columnWidth": 16,
+	"hexeditor.showDecodedText": true,
+	"hexeditor.defaultEndianness": "little",
+	"hexeditor.inspectorType": "aside",
+	// Diff
+	"diffEditor.codeLens": true,
+	"diffEditor.maxComputationTime": 0,
+	"diffEditor.maxFileSize": 0,
+	"diffEditor.ignoreTrimWhitespace": false,
+	// C
+	"clangd.path": "clangd",
+	"clangd.arguments": [
+		"--compile-commands-dir=${workspaceFolder\\/}",
+		"--header-insertion=never",
+	],
+	"clangd.onConfigChanged": "restart",
+	"C_Cpp.default.cStandard": "c99",
+	"C_Cpp.default.cppStandard": "c++11",
+	"C_Cpp.default.compilerPath": "clang",
+	"C_Cpp.default.intelliSenseMode": "clang-x64",
+	"C_Cpp.formatting": "disabled",
+	"C_Cpp.autoAddFileAssociations": false,
+	"C_Cpp.preferredPathSeparator": "Forward Slash",
+	"C_Cpp.errorSquiggles": "disabled",
+	"C_Cpp.intelliSenseEngine": "default",
+	"C_Cpp.intelliSenseEngineFallback": "enabled",
+	"C_Cpp.intelliSenseCacheSize": 0,
+	"C_Cpp.intelliSenseMemoryLimit": 256,
+	// Zig
+	"zig.initialSetupDone": true,
+	"zig.checkForUpdate": false,
+	"zig.path": "zig.exe",
+	"zig.zls.path": "zls.exe",
+	"zig.zls.checkForUpdate": false,
+	"zig.zls.buildOnSaveStep": "check",
+	"zig.zls.enableBuildOnSave": true,
+	// C#
+	"dotnet.formatting.organizeImportsOnFormat": true,
+	"csharp.suppressHiddenDiagnostics": false,
+	"omnisharp.loggingLevel": "information",
+	"omnisharp.enableDecompilationSupport": true,
+	"omnisharp.enableEditorConfigSupport": true,
+	"dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true,
+	"dotnetAcquisitionExtension.enableTelemetry": false,
+	"dotnetAcquisitionExtension.existingDotnetPath": [
+		{
+			"extensionId": "visualstudiotoolsforunity.vstuc",
+			"path": "dotnet",
+		},
+	],
+	// Godot
+	"godot_tools.editor_path": "godot",
+	"godot_tools.gdscript_lsp_server_port": 6005,
+	"godotTools.editorPath.godot3": "godot",
+	"godotTools.editorPath.godot4": "godot",
+	"godotTools.lsp.serverPort": 6005,
+	// Git
+	"git.enabled": false,
+	"git.mergeEditor": false,
+	"git.autorefresh": false,
+	"git.enableStatusBarSync": false,
+	"git.detectSubmodules": false,
+	"github.gitAuthentication": false,
+}
+// extensions:
+//
+// Editor
+//   usernamehw.errorlens
+//   ms-vscode.hexeditor
+//   jdinhlife.gruvbox
+//   slevesque.shader
+//   Catppuccin.catppuccin-vsc
+//   Catppuccin.catppuccin-vsc-icons
+//   mateuszchudyk.hexinspector
+//   softwareape.numbermonger
+//   vasilescur.better-mips
+//   EditorConfig.EditorConfig
+//   mechatroner.rainbow-csv
+//
+// Godot
+//   geequlim.godot-tools
+//   neikeq.godot-csharp-vscode
+//
+// Unity
+//   visualstudiotoolsforunity.vstuc
+//
+// C
+//   vadimcn.vscode-lldb
+//   llvm-vs-code-extensions.vscode-clangd
+//   ms-vscode.cpptools
+//
+// Zig
+//   ziglang.vscode-zig
+//
+// Rust
+//   rust-lang.rust-analyzer
+//
+// C#
+//   ms-dotnettools.csharp
+//   ms-dotnettools.csdevkit
+//   ms-dotnettools.vscode-dotnet-runtime
+//   ms-vscode.mono-debug
+//
+// Python
+//   ms-python.python
+//   ms-python.vscode-pylance
+//   ms-python.debugpy
+//

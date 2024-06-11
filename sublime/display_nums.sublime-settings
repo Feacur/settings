@@ -1,0 +1,6 @@
+// %appdata%/Sublime Text/Packages/User
+{
+	"plugin_mode": "extended",
+	"addition_float_from_hex": true,
+	"addition_size_in_bytes": true,
+}

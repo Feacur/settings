@@ -1,0 +1,877 @@
+{
+  "version_name": "Animal Forest Japan",
+  "version_game": "Af",
+  "compression_method": "Yaz0",
+  "cic": 6102,
+  "identifier": {
+    "build_team": "forest@srd038J.srd.nintendo.co.jp",
+    "build_date": "01-02-14 16:37:16"
+  },
+  "memory": {
+    "code": "80051A80",
+    "actor_table": "80100C90",
+    "gamestate_table": "80106E20"
+  },
+  "files": [
+    {
+      "vrom": "00000000",
+      "name": "makerom",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "00001060",
+      "name": "boot",
+      "type": "Code"
+    },
+    {
+      "vrom": "00019D40",
+      "name": "dmadata",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "00675720",
+      "name": "code",
+      "type": "Code"
+    },
+    {
+      "vrom": "0082D7F0",
+      "name": "ovl_Ac_My_Room",
+      "type": "Code"
+    },
+    {
+      "vrom": "00845C40",
+      "name": "ovl_Ac_Arrange_Room",
+      "type": "Code"
+    },
+    {
+      "vrom": "008E7F30",
+      "name": "ovl_Ac_T_Pistol",
+      "type": "Code"
+    },
+    {
+      "vrom": "009D4000",
+      "name": "Clu_Clu_Land",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "009DF000",
+      "name": "Balloon_Fight",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "009EA000",
+      "name": "Donkey_Kong",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "009F5000",
+      "name": "Donkey_Kong_Jr_Math",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "00A00000",
+      "name": "Pinball",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "00A0B000",
+      "name": "Tennis",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "00A16000",
+      "name": "Golf",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "00A21000",
+      "name": "locerrmsg",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "00A22000",
+      "name": "gameplay_keep",
+      "type": "Object"
+    },
+    {
+      "vrom": "00B8B000",
+      "name": "tools_segment_6",
+      "type": "Object"
+    },
+    {
+      "vrom": "00D2D000",
+      "name": "bg_item",
+      "type": "Object"
+    },
+    {
+      "vrom": "00D38000",
+      "name": "bg_cherry_item",
+      "type": "Object"
+    },
+    {
+      "vrom": "00D43000",
+      "name": "bg_winter_item",
+      "type": "Object"
+    },
+    {
+      "vrom": "00D4D000",
+      "name": "bg_winter_item",
+      "type": "Object"
+    },
+    {
+      "vrom": "00E01000",
+      "name": "ac_train_door",
+      "type": "Object"
+    },
+    {
+      "vrom": "00EF6000",
+      "name": "__unk_head_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "00F2E000",
+      "name": "__unk_broken_meshes_1",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "00F9D000",
+      "name": "__unk_broken_meshes_2",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "00FA8000",
+      "name": "__unk_broken_meshes_3",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "00FAC000",
+      "name": "__unk_head_2",
+      "type": "Object"
+    },
+    {
+      "vrom": "00FB1000",
+      "name": "__unk_pumpkin_tomato_dunno",
+      "type": "Object"
+    },
+    {
+      "vrom": "00FB4000",
+      "name": "__unk_broken_meshes_4",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "00FD6000",
+      "name": "__unk_head_3",
+      "type": "Object"
+    },
+    {
+      "vrom": "00FDB000",
+      "name": "__unk_head_4",
+      "type": "Object"
+    },
+    {
+      "vrom": "00FE0000",
+      "name": "__unk_broken_meshes_5",
+      "type": "Object"
+    },
+    {
+      "vrom": "00FEF000",
+      "name": "__unk_head_5_ribbon",
+      "type": "Object"
+    },
+    {
+      "vrom": "00FF4000",
+      "name": "__unk_head_6_coala",
+      "type": "Object"
+    },
+    {
+      "vrom": "01009000",
+      "name": "__unk_broken_meshes_6",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "0100D000",
+      "name": "__unk_head_7",
+      "type": "Object"
+    },
+    {
+      "vrom": "01011000",
+      "name": "__unk_head_8",
+      "type": "Object"
+    },
+    {
+      "vrom": "01016000",
+      "name": "__unk_head_9",
+      "type": "Object"
+    },
+    {
+      "vrom": "0104C000",
+      "name": "__unk_head_10_pig",
+      "type": "Object"
+    },
+    {
+      "vrom": "01062000",
+      "name": "__unk_head_11_hat",
+      "type": "Object"
+    },
+    {
+      "vrom": "01067000",
+      "name": "__unk_broken_meshes_7",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "0106C000",
+      "name": "__unk_head_12",
+      "type": "Object"
+    },
+    {
+      "vrom": "01071000",
+      "name": "__unk_head_13",
+      "type": "Object"
+    },
+    {
+      "vrom": "01076000",
+      "name": "__unk_head_14_hat",
+      "type": "Object"
+    },
+    {
+      "vrom": "0107B000",
+      "name": "__unk_head_15_rabbit",
+      "type": "Object"
+    },
+    {
+      "vrom": "01091000",
+      "name": "__unk_dunno_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "0109C000",
+      "name": "__unk_head_16_moose",
+      "type": "Object"
+    },
+    {
+      "vrom": "010A0000",
+      "name": "__unk_dunno_2",
+      "type": "Object"
+    },
+    {
+      "vrom": "010AE000",
+      "name": "__unk_head_17",
+      "type": "Object"
+    },
+    {
+      "vrom": "010B3000",
+      "name": "__unk_head_18",
+      "type": "Object"
+    },
+    {
+      "vrom": "010B8000",
+      "name": "__unk_head_19",
+      "type": "Object"
+    },
+    {
+      "vrom": "010CF000",
+      "name": "__unk_head_20_hat",
+      "type": "Object"
+    },
+    {
+      "vrom": "010D4000",
+      "name": "__unk_head_21_hat",
+      "type": "Object"
+    },
+    {
+      "vrom": "010D9000",
+      "name": "__unk_head_22",
+      "type": "Object"
+    },
+    {
+      "vrom": "010E2000",
+      "name": "__unk_head_23",
+      "type": "Object"
+    },
+    {
+      "vrom": "010E7000",
+      "name": "__unk_head_24_wolf",
+      "type": "Object"
+    },
+    {
+      "vrom": "01100000",
+      "name": "basketball",
+      "type": "Object"
+    },
+    {
+      "vrom": "01101000",
+      "name": "volleyball",
+      "type": "Object"
+    },
+    {
+      "vrom": "01102000",
+      "name": "football",
+      "type": "Object"
+    },
+    {
+      "vrom": "01103000",
+      "name": "ac_mailbox",
+      "type": "Object"
+    },
+    {
+      "vrom": "01106000",
+      "name": "ac_rope",
+      "type": "Object"
+    },
+    {
+      "vrom": "01107000",
+      "name": "tol_umb_01",
+      "type": "Object"
+    },
+    {
+      "vrom": "01108000",
+      "name": "tol_umb_02",
+      "type": "Object"
+    },
+    {
+      "vrom": "01109000",
+      "name": "tol_umb_03",
+      "type": "Object"
+    },
+    {
+      "vrom": "0110A000",
+      "name": "tol_umb_04",
+      "type": "Object"
+    },
+    {
+      "vrom": "0110B000",
+      "name": "tol_umb_05",
+      "type": "Object"
+    },
+    {
+      "vrom": "0110C000",
+      "name": "tol_umb_06",
+      "type": "Object"
+    },
+    {
+      "vrom": "0110D000",
+      "name": "tol_umb_07",
+      "type": "Object"
+    },
+    {
+      "vrom": "0110E000",
+      "name": "tol_umb_08",
+      "type": "Object"
+    },
+    {
+      "vrom": "0110F000",
+      "name": "tol_umb_09",
+      "type": "Object"
+    },
+    {
+      "vrom": "01110000",
+      "name": "tol_umb_10",
+      "type": "Object"
+    },
+    {
+      "vrom": "01111000",
+      "name": "tol_umb_11",
+      "type": "Object"
+    },
+    {
+      "vrom": "01112000",
+      "name": "tol_umb_12",
+      "type": "Object"
+    },
+    {
+      "vrom": "01113000",
+      "name": "tol_umb_13",
+      "type": "Object"
+    },
+    {
+      "vrom": "01114000",
+      "name": "tol_umb_14",
+      "type": "Object"
+    },
+    {
+      "vrom": "01115000",
+      "name": "tol_umb_15",
+      "type": "Object"
+    },
+    {
+      "vrom": "01116000",
+      "name": "tol_umb_16",
+      "type": "Object"
+    },
+    {
+      "vrom": "01117000",
+      "name": "tol_umb_17",
+      "type": "Object"
+    },
+    {
+      "vrom": "01118000",
+      "name": "tol_umb_18",
+      "type": "Object"
+    },
+    {
+      "vrom": "01119000",
+      "name": "tol_umb_19",
+      "type": "Object"
+    },
+    {
+      "vrom": "0111A000",
+      "name": "tol_umb_20",
+      "type": "Object"
+    },
+    {
+      "vrom": "0111B000",
+      "name": "tol_umb_21",
+      "type": "Object"
+    },
+    {
+      "vrom": "0111C000",
+      "name": "tol_umb_22",
+      "type": "Object"
+    },
+    {
+      "vrom": "0111D000",
+      "name": "tol_umb_23",
+      "type": "Object"
+    },
+    {
+      "vrom": "0111E000",
+      "name": "tol_umb_24",
+      "type": "Object"
+    },
+    {
+      "vrom": "0111F000",
+      "name": "tol_umb_25",
+      "type": "Object"
+    },
+    {
+      "vrom": "01120000",
+      "name": "tol_umb_26",
+      "type": "Object"
+    },
+    {
+      "vrom": "01121000",
+      "name": "tol_umb_27",
+      "type": "Object"
+    },
+    {
+      "vrom": "01122000",
+      "name": "tol_umb_28",
+      "type": "Object"
+    },
+    {
+      "vrom": "01123000",
+      "name": "tol_umb_29",
+      "type": "Object"
+    },
+    {
+      "vrom": "01124000",
+      "name": "tol_umb_30",
+      "type": "Object"
+    },
+    {
+      "vrom": "01125000",
+      "name": "tol_umb_31",
+      "type": "Object"
+    },
+    {
+      "vrom": "01126000",
+      "name": "tol_umb_32",
+      "type": "Object"
+    },
+    {
+      "vrom": "01127000",
+      "name": "cellphone",
+      "type": "Object"
+    },
+    {
+      "vrom": "01128000",
+      "name": "tol_utiw1",
+      "type": "Object"
+    },
+    {
+      "vrom": "01129000",
+      "name": "axe",
+      "type": "Object"
+    },
+    {
+      "vrom": "0112A000",
+      "name": "tol_npcsao_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "0112B000",
+      "name": "tol_kamicup",
+      "type": "Object"
+    },
+    {
+      "vrom": "0112C000",
+      "name": "tol_kenjyu_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "0112D000",
+      "name": "tol_tamaire",
+      "type": "Object"
+    },
+    {
+      "vrom": "0112F000",
+      "name": "tol_cracker_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "01130000",
+      "name": "tol_hat01",
+      "type": "Object"
+    },
+    {
+      "vrom": "01131000",
+      "name": "hnw",
+      "type": "Object"
+    },
+    {
+      "vrom": "01134000",
+      "name": "snowman",
+      "type": "Object"
+    },
+    {
+      "vrom": "01135000",
+      "name": "ac_uki",
+      "type": "Object"
+    },
+    {
+      "vrom": "01136000",
+      "name": "__unk_kanji_particles",
+      "type": "Object"
+    },
+    {
+      "vrom": "0113C000",
+      "name": "glider",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "0113D000",
+      "name": "insects",
+      "type": "Object"
+    },
+    {
+      "vrom": "01147000",
+      "name": "insect_ac_house_goki",
+      "type": "Object"
+    },
+    {
+      "vrom": "011F4000",
+      "name": "ac_bee",
+      "type": "Object"
+    },
+    {
+      "vrom": "011F5000",
+      "name": "act_balloon",
+      "type": "Object"
+    },
+    {
+      "vrom": "012AC000",
+      "name": "__unk_place_khaki_benches_phone_locker",
+      "type": "Object"
+    },
+    {
+      "vrom": "012B2000",
+      "name": "__unk_fortune_teller_tent",
+      "type": "Object"
+    },
+    {
+      "vrom": "012B9000",
+      "name": "__unk_lit_counter",
+      "type": "Object"
+    },
+    {
+      "vrom": "012BB000",
+      "name": "__unk_place_wooden_counter_scales_papers_mb",
+      "type": "Object"
+    },
+    {
+      "vrom": "012C2000",
+      "name": "__unk_place_green_tapestry_tent_straw_mat__boxes_doll",
+      "type": "Object"
+    },
+    {
+      "vrom": "01383000",
+      "name": "__unk_place_train_car_inside",
+      "type": "Object"
+    },
+    {
+      "vrom": "0138A000",
+      "name": "ac_kamakura_indoor",
+      "type": "Object"
+    },
+    {
+      "vrom": "01390000",
+      "name": "__unk_outdoor_hill_three_lanes",
+      "type": "Object"
+    },
+    {
+      "vrom": "01393000",
+      "name": "__unk_outdoor_river_snow",
+      "type": "Object"
+    },
+    {
+      "vrom": "01397000",
+      "name": "__unk_outdoor_river_green_field",
+      "type": "Object"
+    },
+    {
+      "vrom": "013A0000",
+      "name": "__unk_place_tiny_wooden_2",
+      "type": "Object"
+    },
+    {
+      "vrom": "013A2000",
+      "name": "__unk_grass_grid",
+      "type": "Object"
+    },
+    {
+      "vrom": "013A4000",
+      "name": "ef_room_sunshine",
+      "type": "Object"
+    },
+    {
+      "vrom": "013A5000",
+      "name": "ef_room_sunshine_posthouse",
+      "type": "Object"
+    },
+    {
+      "vrom": "013A6000",
+      "name": "ef_room_sunshine_police",
+      "type": "Object"
+    },
+    {
+      "vrom": "013A7000",
+      "name": "__unk_place_windows_and_bar_4",
+      "type": "Object"
+    },
+    {
+      "vrom": "013A8000",
+      "name": "__unk_place_windows_and_bar_3",
+      "type": "Object"
+    },
+    {
+      "vrom": "013A9000",
+      "name": "__unk_place_tiny_wooden_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "013AB000",
+      "name": "__unk_effect_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "013AC000",
+      "name": "__unk_place_tables_jars_windows",
+      "type": "Object"
+    },
+    {
+      "vrom": "013AF000",
+      "name": "__unk_place_earthy_and_cobweb",
+      "type": "Object"
+    },
+    {
+      "vrom": "013B6000",
+      "name": "__unk_place_green_floor_store_2",
+      "type": "Object"
+    },
+    {
+      "vrom": "013BB000",
+      "name": "__unk_place_green_floor_store_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "013BF000",
+      "name": "__unk_place_tile_floor_store_2",
+      "type": "Object"
+    },
+    {
+      "vrom": "013C7000",
+      "name": "__unk_place_tile_floor_store_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "013CD000",
+      "name": "__unk_place_red_carpet_store_2",
+      "type": "Object"
+    },
+    {
+      "vrom": "013D4000",
+      "name": "__unk_place_red_carpet_store_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "013DC000",
+      "name": "__unk_place_stairs_to_purple_carpet_room",
+      "type": "Object"
+    },
+    {
+      "vrom": "013E2000",
+      "name": "__unk_broken_meshes_8",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "013E3000",
+      "name": "ac_train_window",
+      "type": "Object"
+    },
+    {
+      "vrom": "013E5000",
+      "name": "__unk_place_some_windows_and_bar_3",
+      "type": "Object"
+    },
+    {
+      "vrom": "013E7000",
+      "name": "__unk_place_some_windows_and_bar_2",
+      "type": "Object"
+    },
+    {
+      "vrom": "013E9000",
+      "name": "__unk_place_some_windows_and_bar_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "013EB000",
+      "name": "__unk_wooden_table_bush",
+      "type": "Object"
+    },
+    {
+      "vrom": "013EC000",
+      "name": "__unk_clocks",
+      "type": "Object"
+    },
+    {
+      "vrom": "013F1000",
+      "name": "__unk_brass_wall_thingy",
+      "type": "Object"
+    },
+    {
+      "vrom": "013F3000",
+      "name": "__unk_umbrellas",
+      "type": "Object"
+    },
+    {
+      "vrom": "01408000",
+      "name": "__unk_effect_2",
+      "type": "Object"
+    },
+    {
+      "vrom": "01409000",
+      "name": "__unk_effect_3",
+      "type": "Object"
+    },
+    {
+      "vrom": "0140A000",
+      "name": "__unk_effect_4",
+      "type": "Object"
+    },
+    {
+      "vrom": "0140B000",
+      "name": "__unk_effect_5",
+      "type": "Object"
+    },
+    {
+      "vrom": "0140C000",
+      "name": "ac_shop_goods",
+      "type": "Object"
+    },
+    {
+      "vrom": "01410000",
+      "name": "__unk_effect_6",
+      "type": "Object"
+    },
+    {
+      "vrom": "01427000",
+      "name": "__unk_chess_table",
+      "type": "Object"
+    },
+    {
+      "vrom": "01428000",
+      "name": "__unk_wide_green_drawer",
+      "type": "Object"
+    },
+    {
+      "vrom": "01429000",
+      "name": "__unk_tall_blue_drawer",
+      "type": "Object"
+    },
+    {
+      "vrom": "0142A000",
+      "name": "__unk_red_tv_set",
+      "type": "Object"
+    },
+    {
+      "vrom": "0142B000",
+      "name": "__unk_wooden_chair_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "0142C000",
+      "name": "__unk_plant_in_pot",
+      "type": "Object"
+    },
+    {
+      "vrom": "0142D000",
+      "name": "__unk_bed_with_books",
+      "type": "Object"
+    },
+    {
+      "vrom": "0142E000",
+      "name": "__unk_xmas_tree_brick_pot_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "0142F000",
+      "name": "__unk_wooden_chair_2",
+      "type": "Object"
+    },
+    {
+      "vrom": "01430000",
+      "name": "__unk_xmas_tree_brick_pot_2",
+      "type": "Object"
+    },
+    {
+      "vrom": "01432000",
+      "name": "__unk_turning_electric_fan_1",
+      "type": "Object"
+    },
+    {
+      "vrom": "0143B000",
+      "name": "__unk_turning_electric_fan_2",
+      "type": "Object"
+    },
+    {
+      "vrom": "01871000",
+      "name": "fish_weed",
+      "type": "Object"
+    },
+    {
+      "vrom": "01880000",
+      "name": "__unk_invisible_meshes_1",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "01884000",
+      "name": "__unk_invisible_meshes_2",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "01888000",
+      "name": "__unk_invisible_meshes_3",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "018C4000",
+      "name": "z_select_static",
+      "type": "Unknow"
+    },
+    {
+      "vrom": "01913000",
+      "name": "softsprite_matrix_static",
+      "type": "Unknow"
+    }
+  ]
+}

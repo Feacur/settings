@@ -1,0 +1,41 @@
+// https://code.visualstudio.com/docs/editor/workspaces
+{
+	"folders": [
+		{
+			"path": "src",
+		},
+		{
+			"path": "include",
+		},
+		{
+			"path": ".",
+			"name": "/",
+		},
+	],
+	"settings": {
+		"files.exclude": {
+			"src": true,
+			"include": true,
+			"build": true,
+			"**/__pycache__": true,
+			"**/.venv": true,
+			"**/.git": true,
+			"**/.vs": true,
+			"**/*.sublime-workspace": true,
+		},
+		"editor.insertSpaces": false,
+		"editor.formatOnSave": true,
+		"editor.formatOnSaveMode": "modificationsIfAvailable",
+		"clangd.arguments": [
+			"--compile-commands-dir=${workspaceFolder}",
+			"--header-insertion=never",
+			"--clang-tidy",
+		],
+	},
+	"extensions": {
+		"recommendations": [
+			"vadimcn.vscode-lldb",
+			"llvm-vs-code-extensions.vscode-clangd",
+		],
+	},
+}

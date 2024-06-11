@@ -1,0 +1,28 @@
+// %localappdata%/Fork
+[
+  {
+    "version" : 1
+  },
+  {
+    "action" : {
+      "args" : "\"${file}\"",
+      "path" : "C:\\Program Files\\Sublime Text\\subl.exe",
+      "showOutput" : false,
+      "type" : "process",
+      "waitForExit" : false
+    },
+    "name" : "Open Sublime",
+    "target" : "file"
+  },
+  {
+    "action" : {
+      "args" : "\"${file}\"",
+      "path" : "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+      "showOutput" : false,
+      "type" : "process",
+      "waitForExit" : false
+    },
+    "name" : "Open VSCode",
+    "target" : "file"
+  }
+]

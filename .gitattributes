@@ -1,0 +1,19 @@
+# https://git-scm.com/docs/gitattributes
+
+* text=auto
+
+*.json text
+*.bat  text eol=crlf
+*.sh   text eol=lf
+*.txt  text
+*.h    text
+*.c    text
+*.md   text
+*.py   text
+*.reg  text
+
+*.sublime-keymap   text
+*.sublime-settings text
+
+/*.code-workspace  text
+/*.sublime-project text

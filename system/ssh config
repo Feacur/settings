@@ -1,0 +1,20 @@
+# %userprofile%/.ssh/config
+
+# https://man7.org/linux/man-pages/man5/ssh_config.5.html
+
+# https://docs.github.com/en/authentication
+# generate your SSH key with something like
+# ssh-keygen -t rsa -b 4096 -C "email@domain.tld"
+# ssh-keygen -t ed25519 -C "email@domain.tld"
+
+# @tip:
+# enable and automate `OpenSSH Authentication Agent` service
+# setup environment variable: `set GIT_SSH=C:\Windows\System32\OpenSSH\ssh.exe`
+# [or] system-wide: `setx GIT_SSH C:\Windows\System32\OpenSSH\ssh.exe`
+# call `ssh-add %key_path%`, do your work, call `ssh-add -D`
+
+# GitHub
+Host github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/private_key_file_name

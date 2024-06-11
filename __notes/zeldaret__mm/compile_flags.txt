@@ -1,0 +1,13 @@
+-ferror-limit=0
+
+-std=c89
+-m32
+
+-D_LANGUAGE_C
+
+-I.
+-Isrc
+-Iinclude
+-Iinclude/libc
+-Iextracted/n64-us
+-Ibuild/n64-us

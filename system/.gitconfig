@@ -1,0 +1,46 @@
+# %userprofile%/.gitconfig
+
+# https://git-scm.com/docs/git-config
+
+[gui]
+	encoding = utf-8
+[user]
+	name = name for commits
+	email = mail@for.commits
+[credential]
+	helper = manager
+[core]
+	autocrlf = input
+	editor = code --wait # VS Code as default editor
+
+[rebase]
+	autostash = true
+
+[merge]
+	autostash = true
+	tool = vscode # VS Code as default merge tool
+	conflictstyle = diff3
+	commit = no
+	ff = no
+
+[pull]
+	rebase = true
+	ff = no
+
+[diff]
+	tool = vscode # VS Code as default diff tool
+
+# tools
+[mergetool "vscode"]
+	cmd = code --wait $MERGED
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+
+# miscellaneous
+# [url "https://github.com/"] # force https over ssh
+# 	insteadOf = git@github.com:
+#
+
+# overrides
+# [includeIf "gitdir:folder"] # global per-folder configs
+# 	path = file_path

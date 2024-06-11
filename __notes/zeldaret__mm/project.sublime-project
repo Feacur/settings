@@ -1,0 +1,42 @@
+// https://www.sublimetext.com/docs/projects.html
+{
+	"folders": [
+		{
+			"path": "src",
+		},
+		{
+			"path": "include",
+		},
+		{
+			"path": ".",
+			"name": "/",
+			"folder_exclude_patterns": [
+				"//src",
+				"//include",
+				"//build",
+				"__pycache__",
+				".venv",
+				".git",
+				".vs",
+			],
+			"file_exclude_patterns": [
+				"*.sublime-workspace",
+			],
+		},
+	],
+	"settings": {
+		"translate_tabs_to_spaces": false,
+		"lsp_format_on_save": true,
+		"LSP": {
+			"clangd": {
+				"command": [
+					"clangd",
+					"--compile-commands-dir=${project_path}",
+					"--header-insertion=never",
+					"--clang-tidy",
+				],
+			},
+		},
+	},
+	"build_systems": [],
+}
