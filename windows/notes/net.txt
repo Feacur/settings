@@ -1,0 +1,1 @@
+netplwiz (User Accounts) -> Properties -> User Name -> log out, log in

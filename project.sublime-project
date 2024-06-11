@@ -1,0 +1,18 @@
+// https://www.sublimetext.com/docs/projects.html
+{
+	"folders": [
+		{
+			"path": ".",
+			"folder_exclude_patterns": [
+				".git",
+			],
+			"file_exclude_patterns": [
+				"*.sublime-workspace",
+			],
+		},
+	],
+	"settings": {
+		"translate_tabs_to_spaces": false,
+	},
+	"build_systems": [],
+}

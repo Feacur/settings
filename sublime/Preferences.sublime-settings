@@ -1,0 +1,56 @@
+// %appdata%/Sublime Text/Packages/User
+{
+	"relative_line_numbers": true,
+	"auto_match_enabled": false,
+	"always_show_minimap_viewport": true,
+	"auto_complete_cycle": true,
+	"auto_find_in_selection": true,
+	"binary_file_patterns":
+	[
+	],
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
+	"caret_style": "blink",
+	"close_windows_when_empty": false,
+	"color_scheme": "gruvbox (Dark) (Medium).sublime-color-scheme",
+	"default_encoding": "UTF-8",
+	"detect_indentation": false,
+	"draw_white_space": "all",
+	"fallback_encoding": "UTF-8",
+	"file_exclude_patterns":
+	[
+	],
+	"folder_exclude_patterns":
+	[
+	],
+	"font_face": "JetBrains Mono NL",
+	"font_options": ["no_liga", "no_clig", "no_calt"],
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"EditorConfig",
+		"LSP-pylsp",
+		"Vintage",
+	],
+	"index_exclude_patterns":
+	[
+	],
+	"line_numbers": true,
+	"show_encoding": true,
+	"show_errors_inline": true,
+	"show_line_endings": true,
+	"show_panel_on_build": false,
+	"tab_size": 4,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"scroll_past_end": true,
+	"word_wrap": false,
+	"control_character_style": "names",
+	"trim_automatic_white_space": true,
+	"reveal_menu": true,
+	"remember_workspace": false,
+	"hot_exit": "disabled",
+	"index_files": true,
+	"sublime_merge_path": null,
+	"update_check": false,
+}
