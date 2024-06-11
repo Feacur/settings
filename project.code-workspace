@@ -1,0 +1,18 @@
+// https://code.visualstudio.com/docs/editor/workspaces
+{
+	"folders": [
+		{
+			"path": ".",
+		},
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"__notes": true,
+		},
+		"editor.insertSpaces": false,
+	},
+	"extensions": {
+		"recommendations": [],
+	},
+}
