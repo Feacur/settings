@@ -1,0 +1,133 @@
+// %appdata%/VSCodium/User
+{
+	"extensions.ignoreRecommendations": true,
+	"explorer.confirmDelete": false,
+	"security.workspace.trust.enabled": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"scm.autoReveal": false,
+	"telemetry.telemetryLevel": "off",
+	"telemetry.feedback.enabled": false,
+	"update.mode": "none",
+	"update.enableWindowsBackgroundUpdates": false,
+	"extensions.autoUpdate": false,
+	"extensions.autoCheckUpdates": false,
+	"window.restoreWindows": "none",
+	"chat.agent.enabled": false,
+	"chat.commandCenter.enabled": false,
+	"chat.detectParticipant.enabled": false,
+	"chat.agent.maxRequests": 0,
+	"chat.checkpoints.enabled": false,
+	"explorer.confirmDragAndDrop": false,
+	"[plaintext]": {
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.unicodeHighlight.invisibleCharacters": false
+	},
+	// Terminal
+	"terminal.integrated.defaultLocation": "editor",
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"terminal.integrated.persistentSessionReviveProcess": "never",
+	"terminal.integrated.enablePersistentSessions": false,
+	"terminal.integrated.shellIntegration.history": 0,
+	// Search
+	"search.quickOpen.includeHistory": false,
+	"search.useIgnoreFiles": false,
+	// Debug
+	"debug.console.historySuggestions": false,
+	"debug.toolBarLocation": "commandCenter",
+	"debug.internalConsoleOptions": "neverOpen",
+	"debug.console.closeOnEnd": true,
+	// Files
+	"files.trimFinalNewlines": false,
+	"files.trimTrailingWhitespace": false,
+	// Workbench
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.activityBar.location": "hidden",
+	"workbench.sideBar.location": "right",
+	"workbench.commandPalette.history": 0,
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.editor.restoreViewState": false,
+	"workbench.secondarySideBar.defaultVisibility": "hidden",
+	"workbench.editor.preferHistoryBasedLanguageDetection": false,
+	"workbench.editor.historyBasedLanguageDetection": false,
+	"workbench.editor.focusRecentEditorAfterClose": false,
+	"workbench.editor.closeEmptyGroups": true,
+	"workbench.editor.autoLockGroups": {
+		"terminalEditor": false,
+		"mainThreadWebview-browserPreview": false,
+		"mainThreadWebview-simpleBrowser.view": false,
+		"workbench.editor.processExplorer": false,
+		"workbench.editor.chatSession": false,
+	},
+	// Editor
+	"editor.wordWrap": "off",
+	"editor.fontFamily": "JetBrains Mono NL",
+	"editor.fontLigatures": false,
+	"editor.fontSize": 14,
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.lineNumbers": "relative",
+	"editor.renderWhitespace": "all",
+	"editor.minimap.enabled": false,
+	"editor.scrollBeyondLastColumn": 5,
+	"editor.scrollBeyondLastLine": true,
+	"editor.autoClosingBrackets": "never",
+	"editor.autoClosingQuotes": "never",
+	"editor.autoClosingDelete": "never",
+	"editor.autoClosingOvertype": "never",
+	"editor.trimAutoWhitespace": true,
+	"editor.stickyScroll.maxLineCount": 5,
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.inlayHints.enabled": "off",
+	"editor.autoClosingComments": "never",
+	"editor.autoSurround": "never",
+	"zenMode.showTabs": "none",
+	"editor.largeFileOptimizations": false,
+	// Editor Config
+	"editorconfig.generateAuto": false,
+	// Hex Editor
+	"hexeditor.columnWidth": 16,
+	"hexeditor.showDecodedText": true,
+	"hexeditor.defaultEndianness": "little",
+	"hexeditor.inspectorType": "aside",
+	// Diff
+	"diffEditor.codeLens": true,
+	"diffEditor.maxComputationTime": 0,
+	"diffEditor.maxFileSize": 0,
+	"diffEditor.ignoreTrimWhitespace": false,
+	// C
+	"clangd.path": "clangd",
+	"clangd.arguments": [
+		"--compile-commands-dir=${workspaceFolder\\/}",
+		"--header-insertion=never",
+	],
+	"clangd.onConfigChanged": "restart",
+	// Godot
+	"godotTools.editorPath.godot3": "Godot",
+	"godotTools.editorPath.godot4": "Godot",
+	"godotTools.lsp.serverPort": 6005,
+	// Git
+	"git.enabled": false,
+	"git.mergeEditor": false,
+	"git.autorefresh": false,
+	"git.enableStatusBarSync": false,
+	"git.detectSubmodules": false,
+	"github.gitAuthentication": false,
+}
+// extensions:
+//
+// Editor
+//   slevesque.shader
+//   jdinhlife.gruvbox
+//   Catppuccin.catppuccin-vsc
+//   mechatroner.rainbow-csv
+//
+// Godot
+//   geequlim.godot-tools
+//
+// C
+//   llvm-vs-code-extensions.vscode-clangd
+//
+// Rust
+//   rust-lang.rust-analyzer

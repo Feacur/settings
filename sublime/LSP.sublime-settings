@@ -1,0 +1,56 @@
+// %appdata%/Sublime Text/Packages/User
+{
+	"clients": {
+		"clangd": {
+			"selector": "source.c | source.c++",
+			"command": [
+				"clangd",
+				"--compile-commands-dir=${project_path:${folder:${file_path}}}",
+				"--header-insertion=never",
+			],
+			"enabled": true,
+			// https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.8/LLVM-21.1.8-win64.exe
+			// https://github.com/clangd/clangd/releases/download/21.1.8/clangd-windows-21.1.8.zip
+		},
+		"omnisharp": {
+			"selector": "source.cs",
+			"command": [
+				"omnisharp",
+				"--languageserver",
+				"--source=${project_path:${project_path:${folder:${file_path}}}",
+			],
+			"enabled": true,
+			// https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.39.15/omnisharp-win-x64.zip
+		},
+		"rust-analyzer": {
+			"selector": "source.rs",
+			"command": [
+				"rust-analyzer",
+			],
+			"enabled": true,
+			// https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe
+			// https://github.com/rust-lang/rust-analyzer/releases/download/2026-02-16/rust-analyzer-x86_64-pc-windows-msvc.zip
+		},
+		"zig": {
+			"selector": "source.zig",
+			"command": ["zls"],
+			"enabled": true,
+			// https://ziglang.org/download/0.15.2/zig-x86_64-windows-0.15.2.zip
+			// https://github.com/zigtools/zls/releases/download/0.15.1/zls-x86_64-windows.zip
+		},
+		"odin": {
+			"selector": "source.odin",
+			"command": ["ols"],
+			"enabled": true,
+			// https://github.com/odin-lang/Odin/releases/download/dev-2026-02/odin-windows-amd64-dev-2026-02.zip
+			// https://github.com/DanielGavin/ols/releases/download/dev-2026-02/ols-x86_64-pc-windows-msvc.zip
+		},
+	},
+	"inhibit_word_completions": true,
+	"inhibit_snippet_completions": true,
+	"show_symbol_action_links": true,
+	"diagnostics_highlight_style": "box",
+	"document_highlight_style": "outline",
+	"diagnostics_gutter_marker": "sign",
+	"show_diagnostics_annotations_severity_level": 2,
+}
