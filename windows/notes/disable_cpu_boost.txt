@@ -1,0 +1,4 @@
+1) power options -> process power management -> processor state -> change 100% to 99%
+
+2) install https://www.techpowerup.com/download/techpowerup-throttlestop/
+   disable turbo

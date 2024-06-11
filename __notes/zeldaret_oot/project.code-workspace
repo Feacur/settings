@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "src",
+		},
+		{
+			"path": "include",
+		},
+		{
+			"path": "docs",
+		},
+		{
+			"path": ".",
+			"name": "/",
+		},
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.vs": true,
+			"src": true,
+			"include": true,
+			"docs": true,
+		},
+		"editor.insertSpaces": false,
+		"clangd.arguments": [
+			"--compile-commands-dir=${workspaceFolder}",
+			"--header-insertion=never",
+		],
+	},
+	"extensions": {
+		"recommendations": [
+			"vadimcn.vscode-lldb",
+			"llvm-vs-code-extensions.vscode-clangd",
+		],
+	},
+}

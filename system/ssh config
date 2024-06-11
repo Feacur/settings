@@ -1,0 +1,15 @@
+# %userprofile%/.ssh/config
+
+# generate your SSH key with something like
+# ssh-keygen -t rsa -b 4096 -C "email@domain.tld"
+# ssh-keygen -t ed25519 -C "email@domain.tld"
+
+# enable `OpenSSH Authentication Agent`
+# setup environment variable: `setx GIT_SSH C:\Windows\System32\OpenSSH\ssh.exe`
+# call `ssh-add %key_path%`, do your work, call `ssh-add -D`
+
+# GitHub
+Host github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/private_key_file_name

@@ -1,0 +1,16 @@
+* text=auto
+
+*.json text
+*.bat  text
+*.txt  text
+*.h    text
+*.c    text
+*.md   text
+*.py   text
+*.reg  text
+
+*.sublime-keymap   text
+*.sublime-settings text
+
+/*.code-workspace  text
+/*.sublime-project text

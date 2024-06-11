@@ -1,0 +1,29 @@
+// %appdata%/Sublime Text/Packages/User
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BuildX",
+		"Catppuccin color schemes",
+		"Display numbers",
+		"gruvbox",
+		"HexViewer",
+		"HLSL Syntax",
+		"LSP",
+		"LSP-json",
+		"MarkdownLivePreview",
+		"MarkdownPreview",
+		"MIPS Syntax",
+		"OpenGL Shading Language (GLSL)",
+		"Package Control",
+		"PackageDev",
+		"RainbowBrackets",
+		"Rust Enhanced",
+		"SyncedSideBar",
+		"Terminus",
+		"Zig Language",
+	],
+}
