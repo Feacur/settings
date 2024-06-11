@@ -1,0 +1,9 @@
+// %appdata%/Sublime Text/Packages/User
+{
+	"line_numbers": true,
+	"gutter": true,
+	"draw_centered": false,
+	"wrap_width": 0,
+	"word_wrap": "auto",
+	"scroll_past_end": true
+}
